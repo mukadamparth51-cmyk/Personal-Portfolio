@@ -1,0 +1,177 @@
+
+<!-- i learned some html concepts in my 11th and 12th std , So i used some conceps from my previous studies-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Portfolio</title>
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   
+    <!-- ================= NAVBAR ================= -->
+   
+    <header class="navbar backnav">
+        <div class="logo"><img src="https://res.cloudinary.com/oqg81spe/image/upload/v1795522115/profile.png" height="50px"></div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- ================= HOME / HERO SECTION ================= -->
+    
+    <section id="home" >
+        <div class="hero-text background-image">
+            <img class="profile-pic" src="https://res.cloudinary.com/oqg81spe/image/upload/v1795505893/parth1.png">
+            <center><h1>Hello I'm,</h1><h2>Parth..!</h2></center>
+            <center><a href="#contact" class="btn">Contact Me</a></center>
+        </div>
+
+
+    </section>
+    
+
+    <!-- ================= ABOUT SECTION ================= -->
+    <section id="about" class="about">
+        <div class="about-text">
+            <h2 class="section-title">About Me</h2>
+            <p>
+                Hello! I am a first-year B.Tech engineering student who loves
+                building things with code. I enjoy learning how websites and
+                software work.
+            </p>
+            <p>
+                <b>Education:</b> B.Tech (First Year), Engineering.
+                Completed 12th with Physics, Chemistry and Mathematics.Now I am learning programming and web development in NIAT x Alard University
+            </p>
+            <p>
+                <b>Interests:</b> Web development, programming,
+                problem solving and learning new technologies.
+            </p>
+            <p>
+                <b>Career Goal:</b> To become a skilled software
+                engineer and build useful applications.
+            </p>
+            <p>
+                <b>Lifetime Goal:</b> To become a traveller, travel across the peaks🗻
+            </p>
+        </div>
+
+
+    </section>
+
+    <!-- ================= SKILLS SECTION ================= -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill-card">
+                <div class="skill-icon">&lt;/&gt;</div>
+                <p>HTML</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+                <p>CSS</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🐍</div>
+                <p>Python</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🧠</div>
+                <p>Aptitude</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">👥</div>
+                <p>Communication</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🤖</div>
+                <p>GEN-AI</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PROJECTS SECTION ================= -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Project Gallary</h2>
+
+        <div class="projects-container">
+
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="https://res.cloudinary.com/oqg81spe/image/upload/v1795512047/Smart_Banking_AI__Securely_Smarter_Futures.png" alt="Smart Banking Ai"><br>
+                <div class="project-info">
+                    <h3>Smart Banking Ai</h3>
+                    <p>Smart Banking AI is an AI-powered banking solution designed to make digital banking smarter, safer, and more secure. It integrates Fraud Detection, Smart ID Verification, AI Loan Eligibility Detection, and Direct Refund Recovery to help users manage banking activities efficiently and securely.</p>
+                    <a href="https://github.com/mukadamparth51-cmyk/Unified-BankingAI.git" target="_blank" class="btn-outline">View Project</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="https://res.cloudinary.com/oqg81spe/image/upload/v1795513084/Patil_Agro_Smart_Farming_Banner.png" alt="Agro Solution"><br>
+                <div class="project-info">
+                    <h3>Agro Solution</h3>
+                    <p>Patil Agro Solution is an AI-powered agriculture companion that helps Indian farmers make smarter farming decisions through crop health monitoring, soil insights, weather updates, farming alerts, and intelligent assistance</p>
+                    <a href="https://github.com/rohitbhagadkar79-crypto/Agro-Solution.git" class="btn-outline">View Project</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <section id="contact" class="contact">
+        <div class="contact-info">
+            <h2 class="section-title">Contact</h2>
+            <p>👤 Parth Mukadam</p>
+            <p>✉️ mukadamparth.com</p>
+            <p>📍 Mumbai</p>
+        </div>
+    <!-- I learn FORM in my 11th and 12th subject(IT)-->
+        <form class="contact-form" action="#" method="post">
+            <div class="form-row">
+                <input type="text" name="fullname" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+
+            <input type="text" name="subject" placeholder="Subject" required>
+
+            <textarea name="message" rows="5" placeholder="Message" required></textarea>
+
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <p>©️ 2026 Parth Padmakar Mukadam. All rights reserved.</p>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com" target="_blank"><img src="https://res.cloudinary.com/oqg81spe/image/upload/v1795510586/1673088448695.jpg"></a>
+            <a href="https://github.com" target="_blank"><img src="https://res.cloudinary.com/oqg81spe/image/upload/v1795507860/github_logo.jpg"></a>
+            <a href="http://twitter.com" target="_blank"><img src="https://res.cloudinary.com/oqg81spe/image/upload/v1795510913/X__28formerly_Twitter_29_logo_late_2025.svg.svg"></a>
+            <a href="https://www.instagram.com/parth_7366/" target="_blank"><img src="data:image/jpeg;base64,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"></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
