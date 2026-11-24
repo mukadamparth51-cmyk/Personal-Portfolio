@@ -1,0 +1,15 @@
+Portfolio/
+│
+├── index.html
+├── style.css
+│
+└── assets/
+    ├── profile.png
+    ├── parth1.png
+    ├── smart-banking-ai.png
+    ├── patil-agro.png
+    ├── linkedin.jpg
+    ├── github-logo.jpg
+    ├── twitter.svg
+    ├── instagram.jpg
+    └── watercolor3.jpg
